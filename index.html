@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Software Support-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Roboto Thin Font (fonts.google.com)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap" rel="stylesheet">
+    <!--Rubik Medium 500 Font (fonts.google.com)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+
+    <!--CSS Linking-->
+    <link rel="stylesheet" href="CSS/Main.css">
+    <link rel="stylesheet" href="CSS/Tabs.css">
+    <link rel="stylesheet" href="CSS/BtnLink.css">
+    <link rel="stylesheet" href="CSS/Cursor.css">
+    <link rel="stylesheet" href="CSS/indexcss.css">
+
+    <title>Parkour-Trap</title>
+
+    <!--CSS (Inside HTML)-->
+    <style>
+        body {
+            align-items: center;
+            text-align: center;
+        }
+
+        .embed01 {
+            border-radius: 20px;
+            background-color: rgb(34, 34, 34); background-image: linear-gradient(to right, rgb(64, 0, 255) , rgb(0, 174, 255));
+            transition-duration: 150ms;
+        }
+
+        .embed01:hover {
+            background-color: rgb(34, 34, 34); background-image: linear-gradient(to left, rgb(64, 0, 255) , rgb(0, 174, 255));
+            border-radius: 5px;
+            width: 650px;
+        }
+        
+        .Blur {
+            /*Starting Blur*/
+            animation: BlurAnim 1.5s;
+        }
+
+        @keyframes BlurAnim {
+            from {
+                filter: blur(5px);
+            }
+
+            to{
+                filter: blur(0px);
+            }
+        }
+
+        /* Hides the scrollbar for Chrome, Safari and Opera */
+    *::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hides the scrollbar for IE, Edge and Firefox */
+    * {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    </style>
+</head>
+<body class="Blur">
+    <!--Follow Cursor-->
+    
+
+    <!--Tabs (Sticky)-->
+    <section class="Sticky" style="font-family: 'Roboto';">
+        <div class="topnav">
+            <a class="active" href="#home">HOME PAGE &#9704;</a>
+            <a href="https://pattyytgamedev.itch.io/parkourtrap" target="_blank">GET IT! &#128717;</a>
+            <div class="vl" style="left: 254px;"></div>
+            <div class="topnav-right">
+              <div class="vl" style="right: 158px;"></div>
+              <a href="#About">DOWN &darr;</a>
+              <a href="#MainMenu">UP &uarr;</a>
+            </div>
+          </div>
+   </section>
+
+    <!--Menu (id)-->
+    <section id="MainMenu">
+        <u><h1 class="Title" style="padding: 100px; font-family: 'Rubik', sans-serif; color: rgb(183, 173, 161);">- - - P Λ R K O U R &nbsp;&nbsp; T R Λ P - - -</h1></u> <br>
+        <h2 class="TextShadow" style="text-align: center; font-family: Arial, Helvetica, sans-serif;" id="grad1">A GAME ABOUT SLAM DUNKIN' ROBOTS</h2> <br>
+
+        <!--"GET IT" Button-->
+        <div style="/*For Safety-->*/ align-items: center; text-align: center;">
+            <a href="https://pattyytgamedev.itch.io/parkourtrap" target="_blank" class="button">G Ξ T &nbsp; I T ! &nbsp; &#128717;</a>
+            <!--Down Btn--> <a href="#About" class="button">M O R Ξ &nbsp; I N F O &nbsp; &darr;</a>
+        </div>
+    </section>
+
+    <!--Padding-->
+    <div style="padding: 650px;"></div>
+
+    <!--About (id)-->
+    <section style="text-align: center;">
+        <div id="About">
+            <embed src="Embeds/Embeded.html" type="text/html" class="embed01" width="550" height="250">
+            <a href="#MainMenu" class="button" style="width: 115px;">G O &nbsp; U P &#8593;</a>
+        </div>
+    </section>
+</body>
+</html>

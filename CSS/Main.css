@@ -1,0 +1,53 @@
+/*Window Resize Support*/
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+   }
+}
+  
+/*Scroll Behavior = smooth*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+  
+/*Apply Gradient By Using "id="grad" (Inside HTML File)*/
+#grad0 {
+    background: -webkit-linear-gradient(rgb(157, 157, 157), rgb(35, 35, 35));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#grad1 {
+    background: -webkit-linear-gradient(rgb(255, 132, 0), rgb(84, 0, 253));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Title {
+    font-size: 50px; 
+    border-radius: 15px;
+    text-align: center;
+}
+
+.Sticky {
+    position: -webkit-sticky; 
+    position: sticky; 
+    top: 0;
+}
+
+.TextShadow {
+   text-shadow: 5px 4px 5px rgba(34,34,34,0.81);
+}
+
+a {
+    cursor: default;
+}
+
+u {
+    color: rgb(203, 203, 203);
+}

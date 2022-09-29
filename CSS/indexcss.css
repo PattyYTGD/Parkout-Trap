@@ -1,0 +1,19 @@
+body {
+    background-image: linear-gradient(-45deg, #EE7752, #E73C7E, #2326d5, #27dbb1);
+    position: relative;
+    animation: changebg, 10s ease-in-out infinite;
+}
+
+@keyframes changebg {
+    from {
+        background-image: linear-gradient(-45deg, #EE7752, #E73C7E, #2326d5, #27dbb1);
+    }
+
+    50% {
+        background-image: linear-gradient(-45deg, #7d1d00, #ff0062, #000000, #db2727);
+    }
+
+    to {
+        background-image: linear-gradient(-45deg, #EE7752, #E73C7E, #2326d5, #27dbb1);
+    }
+}

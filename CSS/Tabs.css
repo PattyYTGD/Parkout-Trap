@@ -1,0 +1,55 @@
+/*BG Settings*/
+.topnav {
+    border-radius: 100px;
+    background-color: rgb(224, 224, 224);
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition-duration: 135ms;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    transition-duration: 150ms;
+    border-radius: 5px;
+    background-color: rgb(175, 175, 175);
+    cursor: pointer;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    border-radius: 3px;
+    background-color: rgb(183, 183, 183);
+    color: white;
+    transition-duration: 135ms;
+}
+
+.topnav a.active:hover {
+    transition-duration: 150ms;
+    border-radius: 3px;
+    color: black;
+    background-color: rgb(211, 211, 211);
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+    float: right;
+}
+
+/*Vertical Line Seperator*/
+.vl {
+    border-radius: 100px;
+    border-left: 6px solid grey;
+    height: 51px;
+    position: absolute;
+    margin-left: -4px;
+    top: 0;
+}
